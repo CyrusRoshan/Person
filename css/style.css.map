@@ -2,9 +2,9 @@
   "version": 3,
   "file": "style.css",
   "sources": [
-    "style.sass"
+    "style.scss"
   ],
   "sourcesContent": [],
-  "mappings": "",
+  "mappings": ";AACA;EACC,AAAwC;EACxC,AAAyB;EACzB,AAAsB;EACtB,AAAoB;EACpB,AAAiB;;AAGlB;;EAEA;IACE,AAAO;IACP,AAAkB;;EAGpB;IACE,AAAoB;IACpB,AAAuB;IACvB,AAAe;IACf,AAAkB;;EAGpB;IACE,AAAuB;IACvB,AAAe;IACf,AAAY;IACZ,AAAoB;;EAEtB,AAAyB;IACvB,AAAY;;;AAKd;EACC,AAAa;EACb,AAAQ;;;AAET;EACC,AAAiB;;;AAGlB,AAAM;EACL,AAAO;;;AAGR;EACC,AAAO",
   "names": []
 }

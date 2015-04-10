@@ -1,2 +1,47 @@
+/* line 2, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+html {
+  background: url(../images/background.svg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+@media screen and (min-device-width: 1200px) {
+  /* line 12, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+  ::-webkit-scrollbar {
+    width: 1em;
+    background-color: #e6e6e6; }
+  /* line 17, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+  ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    -webkit-border-radius: 10px;
+    border-radius: 0;
+    background-color: rgba(209, 144, 65, 0); }
+  /* line 24, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+  ::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: .25em;
+    background: #dd8720;
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5); }
+  /* line 30, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+  ::-webkit-scrollbar-thumb:window-inactive {
+    background: #939393; } }
+
+/* line 36, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+body {
+  font-family: Lato;
+  margin: 0px; }
+
+/* line 40, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+a {
+  text-decoration: none; }
+
+/* line 44, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+html, body {
+  width: 100%; }
+
+/* line 48, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+.block {
+  width: 100%; }
 
 /*# sourceMappingURL=style.css.map */
