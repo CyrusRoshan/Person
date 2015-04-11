@@ -49,6 +49,78 @@ html, body{
 	width: 100%;
 }
 
+//since I'm using min-width it's 2000+ px wide
+$breakA: 2000px;
+$oneA: 170px;
+$twoA: 100px;
+$threeA: 90px;
+$fourA: 70px; //Line height 140px
+$fiveA: 20px;
+$sixA: 45px;
+
+
+// < 2000 px wide
+$breakB: 2000px;
+$oneB: 120px;
+$twoB: 80px;
+$threeB: 65px;
+$fourB: 50px;
+$fiveB: 45px;
+$sixB: 30px;
+
+
+// < 1500px wide;
+$breakC: 1500px;
+$oneC: 60px;
+$twoC: 50px;
+$threeC: 40px;
+$fourC: 30px;
+$fiveC: 20px;
+$sixC: 16px;
+
+
+// < 414 px wide (iphone 6 plus);
+//TODO: change this too:
+$breakD: 414px;
+$oneD: 110px;
+$twoD: 90px;
+$threeD: 60px;
+$fourD: 55px;
+$fiveD: 55px;
+$sixD: 35px;
+
+
+// < 320 px wide (iphone 5/4);
+//TODO change this too:
+$breakE: 320px;
+$oneE: 110px;
+$twoE: 90px;
+$threeE: 50px;
+$fourE: 40px;
+$fiveE: 55px;
+$sixE: 25px;
+
+
+
+
 .block{
 	width: 100%;
+	display: inline-block;
+	.section{
+		width: 100%;
+		display: inline-block;
+	}
+}
+
+.navigation{
+	background-color: rgba(0, 78, 255, 0.58);
+	.section{
+		padding-left: 12.5%;
+		padding-right: 12.5%;
+		width: 75%;
+		.navLink{
+			color: #9dff90;
+			font-size: $threeC;
+		}
+	}
 }

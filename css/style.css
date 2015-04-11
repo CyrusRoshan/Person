@@ -40,8 +40,26 @@ a {
 html, body {
   width: 100%; }
 
-/* line 52, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+/* line 106, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
 .block {
-  width: 100%; }
+  width: 100%;
+  display: inline-block; }
+  /* line 109, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+  .block .section {
+    width: 100%;
+    display: inline-block; }
+
+/* line 115, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+.navigation {
+  background-color: rgba(0, 78, 255, 0.58); }
+  /* line 117, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+  .navigation .section {
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+    width: 75%; }
+    /* line 121, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+    .navigation .section .navLink {
+      color: #9dff90;
+      font-size: 40px; }
 
 /*# sourceMappingURL=style.css.map */
