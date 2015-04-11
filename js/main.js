@@ -22,8 +22,22 @@ $(window).load(function() {
 		paddingBottom: height * .25 + "px",
 		paddingLeft: height * .5 + "px",
 		paddingRight: height * .5 + "px",
-		borderRadius: outerHeight * 2/12 + "px"
+		// change padding top and bottom to height * .5 with a slow animation when switching between sections, also change the background color to get more opaque and keep the default background color very transparent. onhover change the background color to a more opaque white and the text to a darker gray variant of the original background color
+		//borderRadius: outerHeight * 2/12 + "px"
 	});
 	
+	$(".navigation").css({
+		borderBottomLeftRadius: $(".navigation").height() * .25,
+		borderBottomRightRadius: $(".navigation").height() * .25,
+	});
+	
+	$(".intro").css({
+		paddingTop: $(".navigation").height() + "px"
+	});	
+	
+	$(".block").each(function(index) {
+		$(this).css({paddingTop: parseInt($(this).css("padding-top")) + 70 + "px"});
+		$(this).css({paddingBottom: parseInt($(this).css("padding-bottom")) + 70 + "px"});
+	});
 	
 });

@@ -10,49 +10,46 @@ html {
   /* line 16, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
   ::-webkit-scrollbar {
     width: 1em;
-    background-color: #e6e6e6; }
+    background-color: #4b588d; }
   /* line 21, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
-  ::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-    -webkit-border-radius: 10px;
-    border-radius: 0;
-    background-color: rgba(209, 144, 65, 0); }
-  /* line 28, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
   ::-webkit-scrollbar-thumb {
     -webkit-border-radius: 10px;
-    border-radius: .25em;
-    background: #dd8720;
-    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5); }
-  /* line 34, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+    border-radius: 300px;
+    background: #b5b7d8;
+    -webkit-box-shadow: inset 0 0 5px rgba(121, 121, 121, 0.5); }
+  /* line 27, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
   ::-webkit-scrollbar-thumb:window-inactive {
     background: #939393; } }
 
-/* line 40, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+/* line 33, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
 body {
   font-family: Lato;
   margin: 0px; }
 
-/* line 44, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+/* line 37, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
 a {
   text-decoration: none; }
 
-/* line 48, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+/* line 41, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
 html, body {
   width: 100%; }
 
-/* line 106, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+/* line 99, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
 .block {
   width: 100%;
   display: inline-block; }
-  /* line 109, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+  /* line 102, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
   .block .section {
     width: 100%;
     display: inline-block; }
 
-/* line 115, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+/* line 108, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
 .navigation {
-  background-color: rgba(0, 78, 255, 0.58); }
-  /* line 117, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+  position: fixed;
+  background-color: #0b2f0c;
+  width: 100%;
+  display: inline-block; }
+  /* line 113, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
   .navigation .section {
     padding-left: 12.5%;
     padding-right: 12.5%;
@@ -60,12 +57,39 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: space-between; }
-    /* line 124, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+    /* line 120, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
     .navigation .section .navLink {
       color: #9dff90;
       font-family: raleway;
-      font-size: 40px;
-      background-color: red;
-      border-radius: 20px; }
+      font-size: 30px;
+      background-color: red; }
+
+/* line 129, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+.intro {
+  background-color: #1e4e19; }
+  /* line 132, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+  .intro .section .top {
+    width: 100%;
+    float: left; }
+    /* line 135, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+    .intro .section .top .left {
+      width: 50%;
+      float: left; }
+      /* line 138, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+      .intro .section .top .left .image {
+        float: right;
+        width: 50%; }
+        /* line 141, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+        .intro .section .top .left .image img {
+          width: 100%;
+          background-color: black;
+          border-radius: 25px;
+          border: 10px solid gray; }
+    /* line 149, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+    .intro .section .top .right {
+      width: 50%; }
+      /* line 151, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+      .intro .section .top .right .intro {
+        font-size: 20px; }
 
 /*# sourceMappingURL=style.css.map */
