@@ -6,18 +6,24 @@ $(window).load(function() {
 	var numLinks = $(".navLink").length;
 	var height = parseInt(navLinkHeight);
 	var width = $(".navLink").width();
+	var outerHeight = $(".navLink").outerHeight();
 	
 	var totalWidth = 0;
 	$(".navLink").each(function(index) {
 		totalWidth += parseInt($(this).width(), 10);
 	});
 	
+	$("#navSection").css({
+		height: height * 2 + "px"
+	});	
+	
 	$(".navLink").css({
-		paddingLeft: height + "px",
-		paddingRight: height + "px",
-		paddingTop: height + "px",
-		paddingBottom: height + "px",
-		marginLeft: (((.75 * htmlWidth) - totalWidth) / numLinks - (2 * height)) / 2 + "px",
-		marginRight: (((.75 * htmlWidth) - totalWidth) / numLinks - (2 * height)) / 2 + "px"
+		paddingTop: height * .25 + "px",
+		paddingBottom: height * .25 + "px",
+		paddingLeft: height * .5 + "px",
+		paddingRight: height * .5 + "px",
+		borderRadius: outerHeight * 2/12 + "px"
 	});
+	
+	
 });

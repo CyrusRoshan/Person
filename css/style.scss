@@ -118,9 +118,15 @@ $sixE: 25px;
 		padding-left: 12.5%;
 		padding-right: 12.5%;
 		width: 75%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
 		.navLink{
 			color: #9dff90;
+			font-family: raleway;
 			font-size: $threeC;
+			background-color: red;
+			border-radius: 20px;
 		}
 	}
 }
