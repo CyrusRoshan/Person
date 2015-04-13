@@ -95,15 +95,6 @@ $eSix: 25px;
 
 
 
-.block{
-	width: 100%;
-	display: inline-block;
-	.section{
-		width: 100%;
-		display: inline-block;
-	}
-}
-
 .navigation{
 	position: fixed;
 	background-color: rgba(11, 47, 12, 1);
@@ -124,6 +115,18 @@ $eSix: 25px;
 		}
 	}
 }
+
+.block{
+	width: 100%;
+	display: inline-block;
+	.section{
+		width: 94%;
+		margin-left: 3%;
+		margin-right: 3%;
+		display: inline-block;
+	}
+}
+
 
 .intro{
 	background-color: rgb(30, 78, 25);
@@ -181,16 +184,23 @@ $eSix: 25px;
 .about{
 	background-color: rgb(146, 157, 62);
 	.section{
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
 		.top{
-			
+			font-size: $cThree;
+			text-indent: 5%;
+			width: 100%;
+			margin-bottom: 20px;
 		}
 		.bottom{
 			.content{
-				.jobDesc{
-					
+				.desc{
+					font-size: $cFour;
 				}
 				.text{
-					
+					margin-top: 20px;
+					font-size: $cFive;
 				}
 			}
 		}
