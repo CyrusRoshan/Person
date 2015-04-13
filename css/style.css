@@ -133,4 +133,27 @@ html, body {
       margin-top: 20px;
       font-size: 20px; }
 
+/* line 210, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+.skills {
+  background-color: #d05017; }
+  /* line 212, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+  .skills .section {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%; }
+    /* line 216, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+    .skills .section .title {
+      text-indent: 5%;
+      font-size: 40px; }
+    /* line 221, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+    .skills .section .content .subSection {
+      margin-top: 15px; }
+      /* line 223, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+      .skills .section .content .subSection .subTitle {
+        font-size: 30px; }
+      /* line 226, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+      .skills .section .content .subSection .content {
+        text-indent: 5%;
+        font-size: 20px; }
+
 /*# sourceMappingURL=style.css.map */

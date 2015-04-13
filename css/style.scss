@@ -206,3 +206,34 @@ $eSix: 25px;
 		}
 	}
 }
+
+.skills{
+	background-color: #d05017;
+	.section{
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+		.title{
+			text-indent: 5%;
+			font-size: $cThree
+		}
+		.content{
+			.subSection{
+				margin-top: 15px;
+				.subTitle{
+					font-size: $cFour;
+				}
+				.content{
+					text-indent: 5%;
+					font-size: $cFive;
+				}
+			}
+			.section1{
+				
+			}
+			.section2{
+				
+			}
+		}
+	}
+}
