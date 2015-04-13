@@ -1,6 +1,5 @@
 //lego construction projecs
 //advocate of the developer language, node.js
-//
 
 
 html{
@@ -138,6 +137,7 @@ $eSix: 25px;
 				.image{
 					float: right;
 					width: 50%;
+					margin-right: 40px;
 					img{
 						width: 100%;
 						background-color: black;
@@ -148,8 +148,12 @@ $eSix: 25px;
 			}
 			.right{
 				width: 50%;
-				.intro{
+				float: left;
+				.title{
 					font-size: $cFive;
+					.name{
+						
+					}
 				}
 				.desc{
 					

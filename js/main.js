@@ -40,4 +40,6 @@ $(window).load(function() {
 		$(this).css({paddingBottom: parseInt($(this).css("padding-bottom")) + 70 + "px"});
 	});
 	
+	
+	
 });
