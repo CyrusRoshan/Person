@@ -161,8 +161,37 @@ $eSix: 25px;
 			}
 		}
 		.bottom{
+			padding-top: 30px;
+			width: 50%;
+			margin-right: 25%;
+			margin-left: 25%;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
 			.link{
-				
+				color: red;
+				padding: 30px;
+				background-color: blue;
+				font-size: $cFour;
+			}
+		}
+	}
+}
+
+.about{
+	background-color: rgb(146, 157, 62);
+	.section{
+		.top{
+			
+		}
+		.bottom{
+			.content{
+				.jobDesc{
+					
+				}
+				.text{
+					
+				}
 			}
 		}
 	}

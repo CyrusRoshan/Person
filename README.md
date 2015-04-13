@@ -1,6 +1,6 @@
 # <a href="http://cyrusroshan.me/person">Person</a>
 ###A simple customizeable, personal website template
-####(in progress)
+####(in progress, will look terrible for a good while)
 
 ___
 

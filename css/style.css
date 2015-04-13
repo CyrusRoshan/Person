@@ -93,5 +93,24 @@ html, body {
       /* line 152, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
       .intro .section .top .right .title {
         font-size: 20px; }
+  /* line 163, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+  .intro .section .bottom {
+    padding-top: 30px;
+    width: 50%;
+    margin-right: 25%;
+    margin-left: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    /* line 171, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+    .intro .section .bottom .link {
+      color: red;
+      padding: 30px;
+      background-color: blue;
+      font-size: 30px; }
+
+/* line 181, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+.about {
+  background-color: #929d3e; }
 
 /*# sourceMappingURL=style.css.map */
