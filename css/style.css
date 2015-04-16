@@ -80,7 +80,7 @@ html, body {
 
 /* line 143, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
 .home {
-  background: linear-gradient(rgba(0, 0, 0, 0.69), rgba(0, 0, 0, 0.72)), url(../images/backgroundPicture.png) no-repeat center center fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.69), rgba(0, 0, 0, 0.72)), url(../images/backgroundPicture.png) no-repeat left center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -92,18 +92,21 @@ html, body {
     float: left;
     text-align: center;
     padding-bottom: 50px;
-    color: white; }
-    /* line 163, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    /* line 166, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
     .home .section .top .title {
       font-size: 60px; }
-      /* line 165, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+      /* line 168, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
       .home .section .top .title .name {
         display: inline;
         font-weight: bold; }
-    /* line 170, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+    /* line 173, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
     .home .section .top .line {
       font-size: 30px; }
-  /* line 183, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+  /* line 186, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
   .home .section .bottom {
     padding-top: 30px;
     width: 100%;
@@ -113,7 +116,7 @@ html, body {
     justify-content: center;
     flex-wrap: wrap;
     border-radius: 20% 20% 0% 0%/100% 100% 0% 0%; }
-    /* line 192, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+    /* line 195, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
     .home .section .bottom .link {
       margin-left: 1%;
       margin-right: 1%;
@@ -122,37 +125,37 @@ html, body {
       background-color: blue;
       font-size: 30px; }
 
-/* line 205, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+/* line 208, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
 .about {
   background-color: #929d3e; }
-  /* line 210, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+  /* line 213, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
   .about .section {
     width: 80%;
     margin-left: 10%;
     margin-right: 10%; }
-    /* line 216, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+    /* line 219, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
     .about .section .bottom .content .desc {
       font-size: 30px; }
-    /* line 219, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+    /* line 222, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
     .about .section .bottom .content .text {
       margin-top: 20px;
       font-size: 20px; }
 
-/* line 228, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+/* line 231, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
 .skills {
   background-color: #d05017; }
-  /* line 233, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+  /* line 236, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
   .skills .section {
     width: 80%;
     margin-left: 10%;
     margin-right: 10%; }
-    /* line 238, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+    /* line 241, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
     .skills .section .content .subSection {
       margin-top: 15px; }
-      /* line 240, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+      /* line 243, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
       .skills .section .content .subSection .subTitle {
         font-size: 30px; }
-      /* line 243, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+      /* line 246, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
       .skills .section .content .subSection .content {
         text-indent: 5%;
         font-size: 20px; }

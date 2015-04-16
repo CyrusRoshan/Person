@@ -146,7 +146,7 @@ $eSix: 25px;
 			rgba(0, 0, 0, 0.69), 
 			rgba(0, 0, 0, 0.72)
 		),	
-		url(../images/backgroundPicture.png) no-repeat center center fixed; 
+		url(../images/backgroundPicture.png) no-repeat left center fixed; 
 	
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -160,6 +160,9 @@ $eSix: 25px;
 			text-align: center;
 			padding-bottom: 50px;
 			color: white;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
 			.title{
 				font-size: $cOne;
 				.name{

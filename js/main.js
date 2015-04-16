@@ -50,6 +50,10 @@ $(window).load(function() {
 		borderRadius: $(".home .section .bottom .link").height() / 6 + "px",
 	});
 	
+	$(".home .section .top").css({
+		height: $(window).height() - $(".home").outerHeight() + $(".home .section .top").height() + "px",
+	});
+	
 	$(".block").each(function(index) {
 
 	});
