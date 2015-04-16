@@ -100,7 +100,7 @@ $eSix: 25px;
 	background-color: rgba(11, 47, 12, 1);
 	width: 100%;
 	display: inline-block;
-	border-radius: 0% 0% 50% 50% / 0% 0% 30% 30%;;
+	border-radius: 0% 0% 50% 50% / 0% 0% 20% 20%;
 	.section{
 		padding-left: 2.5%;
 		padding-right: 2.5%;
@@ -122,6 +122,15 @@ $eSix: 25px;
 .block{
 	width: 100%;
 	display: inline-block;
+	&>.title{
+		font-size: $cTwo;
+		text-align: center;
+		width: 50%;
+		margin-left: 25%;
+		margin-bottom: 20px;
+		background-color: red;
+		border-radius: 0% 0% 60% 60% / 0% 0% 120% 120%;
+	}
 	.section{
 		width: 94%;
 		margin-left: 3%;
@@ -132,7 +141,17 @@ $eSix: 25px;
 
 
 .home{
-	background-color: rgb(30, 78, 25);
+	background: 
+		linear-gradient(
+			rgba(0, 0, 0, 0.69), 
+			rgba(0, 0, 0, 0.72)
+		),	
+		url(../images/backgroundPicture.png) no-repeat center center fixed; 
+	
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 	.section{
 		.top{
 			font-family: play;
@@ -140,6 +159,7 @@ $eSix: 25px;
 			float: left;
 			text-align: center;
 			padding-bottom: 50px;
+			color: white;
 			.title{
 				font-size: $cOne;
 				.name{
@@ -181,18 +201,16 @@ $eSix: 25px;
 	}
 }
 
+
 .about{
 	background-color: rgb(146, 157, 62);
+	.title{
+
+	}
 	.section{
 		width: 80%;
 		margin-left: 10%;
 		margin-right: 10%;
-		.top{
-			font-size: $cThree;
-			text-indent: 5%;
-			width: 100%;
-			margin-bottom: 20px;
-		}
 		.bottom{
 			.content{
 				.desc{
@@ -209,14 +227,13 @@ $eSix: 25px;
 
 .skills{
 	background-color: #d05017;
+	.title{
+
+	}
 	.section{
 		width: 80%;
 		margin-left: 10%;
 		margin-right: 10%;
-		.title{
-			text-indent: 5%;
-			font-size: $cThree
-		}
 		.content{
 			.subSection{
 				margin-top: 15px;
