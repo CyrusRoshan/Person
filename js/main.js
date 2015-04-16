@@ -31,13 +31,12 @@ $(window).load(function() {
 		borderBottomRightRadius: $(".navigation").height() * .25,
 	});
 	
-	$(".intro").css({
-		paddingTop: $(".navigation").height() + "px"
+	$(".home").css({
+		paddingTop: $(".navigation").height() + 20 + "px"
 	});	
 	
 	$(".block").each(function(index) {
-		$(this).css({paddingTop: parseInt($(this).css("padding-top")) + 70 + "px"});
-		$(this).css({paddingBottom: parseInt($(this).css("padding-bottom")) + 70 + "px"});
+
 	});
 	
 	

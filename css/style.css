@@ -67,91 +67,73 @@ html, body {
     display: inline-block; }
 
 /* line 131, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
-.intro {
+.home {
   background-color: #1e4e19; }
   /* line 134, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
-  .intro .section .top {
+  .home .section .top {
     width: 100%;
     float: left; }
     /* line 137, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
-    .intro .section .top .left {
-      width: 50%;
-      float: left; }
-      /* line 140, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
-      .intro .section .top .left .image {
-        float: right;
-        width: 50%;
-        margin-right: 40px; }
-        /* line 144, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
-        .intro .section .top .left .image img {
-          width: 100%;
-          background-color: black;
-          border-radius: 25px;
-          border: 10px solid gray; }
-    /* line 152, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
-    .intro .section .top .right {
-      width: 50%;
-      float: left; }
-      /* line 155, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
-      .intro .section .top .right .title {
-        font-size: 20px; }
-  /* line 166, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
-  .intro .section .bottom {
+    .home .section .top .title {
+      font-size: 20px; }
+  /* line 155, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+  .home .section .bottom {
     padding-top: 30px;
     width: 50%;
     margin-right: 25%;
     margin-left: 25%;
     display: flex;
     align-items: center;
+    background-color: orange;
     justify-content: space-between; }
-    /* line 174, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
-    .intro .section .bottom .link {
+    /* line 164, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+    .home .section .bottom .link {
       color: red;
       padding: 30px;
       background-color: blue;
       font-size: 30px; }
 
-/* line 184, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+/* line 174, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
 .about {
   background-color: #929d3e; }
-  /* line 186, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+  /* line 176, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
   .about .section {
     width: 80%;
     margin-left: 10%;
     margin-right: 10%; }
-    /* line 190, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+    /* line 180, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
     .about .section .top {
       font-size: 40px;
       text-indent: 5%;
       width: 100%;
       margin-bottom: 20px; }
-    /* line 198, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+    /* line 188, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
     .about .section .bottom .content .desc {
       font-size: 30px; }
-    /* line 201, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+    /* line 191, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
     .about .section .bottom .content .text {
       margin-top: 20px;
       font-size: 20px; }
 
-/* line 210, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+/* line 200, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
 .skills {
   background-color: #d05017; }
-  /* line 212, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+  /* line 202, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
   .skills .section {
     width: 80%;
     margin-left: 10%;
     margin-right: 10%; }
-    /* line 216, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+    /* line 206, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
     .skills .section .title {
       text-indent: 5%;
       font-size: 40px; }
-    /* line 221, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+    /* line 211, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
     .skills .section .content .subSection {
       margin-top: 15px; }
-      /* line 223, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+      /* line 213, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
       .skills .section .content .subSection .subTitle {
         font-size: 30px; }
-      /* line 226, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+      /* line 216, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
       .skills .section .content .subSection .content {
         text-indent: 5%;
         font-size: 20px; }

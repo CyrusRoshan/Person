@@ -128,39 +128,28 @@ $eSix: 25px;
 }
 
 
-.intro{
+.home{
 	background-color: rgb(30, 78, 25);
 	.section{
 		.top{
 			width: 100%;
 			float: left;
-			.left{
-				width: 50%;
-				float: left;
-				.image{
-					float: right;
-					width: 50%;
-					margin-right: 40px;
-					img{
-						width: 100%;
-						background-color: black;
-						border-radius: 25px;
-						border: 10px solid gray;
-					}
+			.title{
+				font-size: $cFive;
+				.name{
 				}
 			}
-			.right{
-				width: 50%;
-				float: left;
-				.title{
-					font-size: $cFive;
-					.name{
-						
-					}
-				}
-				.desc{
-					
-				}
+			.line{
+				
+			}
+			.line1{
+				
+			}
+			.line2{
+				
+			}
+			.line3{
+				
 			}
 		}
 		.bottom{
@@ -170,6 +159,7 @@ $eSix: 25px;
 			margin-left: 25%;
 			display: flex;
 			align-items: center;
+			background-color: orange;
 			justify-content: space-between;
 			.link{
 				color: red;
