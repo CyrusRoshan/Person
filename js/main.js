@@ -14,7 +14,7 @@ $(window).load(function() {
 	});
 	
 	$("#navSection").css({
-		height: height * 2 + "px"
+		height: height * 2 + "px",
 	});	
 	
 	$(".navLink").css({
@@ -27,13 +27,28 @@ $(window).load(function() {
 	});
 	
 	$(".navigation").css({
-		borderBottomLeftRadius: $(".navigation").height() * .25,
-		borderBottomRightRadius: $(".navigation").height() * .25,
+		paddingBottom: $("#navSection").height() * .3 + "px",
 	});
 	
 	$(".home").css({
-		paddingTop: $(".navigation").height() + 20 + "px"
+		paddingTop: $(".navigation").height() + 50 + "px"
 	});	
+	
+	
+	$(".link").css("line-height", "1");
+	var temp = parseInt($(".link").css("line-height")) / 2 + "px";
+	$(".link").css({
+		padding: temp,
+	});
+	
+	$(".home .section .bottom").css({
+		paddingTop: temp,
+		paddingBottom: temp,
+	});
+	
+	$(".home .section .bottom .link").css({
+		borderRadius: $(".home .section .bottom .link").height() / 6 + "px",
+	});
 	
 	$(".block").each(function(index) {
 
