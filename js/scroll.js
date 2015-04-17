@@ -8,6 +8,7 @@ $(function() {
           scrollTop: target.offset().top - $(".navigation").outerHeight()
         }, 1000);
         return false;
+		scrolling();
       }
     }
   });
