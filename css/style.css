@@ -106,6 +106,15 @@ html, body {
     /* line 173, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
     .home .section .top .line {
       font-size: 30px; }
+    /* line 176, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+    .home .section .top .line1 {
+      color: #d08b8b; }
+    /* line 179, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+    .home .section .top .line2 {
+      color: #73c787; }
+    /* line 182, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+    .home .section .top .line3 {
+      color: #a09ad0; }
   /* line 186, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
   .home .section .bottom {
     padding-top: 30px;
