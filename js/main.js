@@ -58,8 +58,11 @@ $(window).load(function() {
 		height: $(window).height() - $(".home").outerHeight() + $(".home .section .top").height() + "px",
 	});
 	
-	$(".block").each(function(index) {
-
+	$(".centerThis").each(function(index) {
+		$(this).css({
+			marginTop: ($(this).parent().height() - $(this).height()) / 2,
+			marginBottom: ($(this).parent().height() - $(this).height()) / 2,
+		});
 	});
 	
 	
