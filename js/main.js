@@ -13,7 +13,7 @@ $(window).load(function() {
 		totalWidth += parseInt($(this).width(), 10);
 	});
 	
-	$("#navSection").css({
+	$(".navigation .section").css({
 		height: height * 2 + "px",
 	});	
 	
@@ -24,10 +24,12 @@ $(window).load(function() {
 		paddingRight: height * .5 + "px",
 		// change padding top and bottom to height * .5 with a slow animation when switching between sections, also change the background color to get more opaque and keep the default background color very transparent. onhover change the background color to a more opaque white and the text to a darker gray variant of the original background color
 		//borderRadius: outerHeight * 2/12 + "px"
+		marginLeft: height * .5 + "px",
+		marginRight: height * .5 + "px",
 	});
 	
 	$(".navigation").css({
-		paddingBottom: $("#navSection").height() * .3 + "px",
+		paddingBottom: $(".navigation .section").height() * .3 + "px",
 	});
 	
 	$(".home").css({
@@ -36,7 +38,9 @@ $(window).load(function() {
 	
 	
 	$(".link").css("line-height", "1");
+	
 	var temp = parseInt($(".link").css("line-height")) / 2 + "px";
+	
 	$(".link").css({
 		padding: temp,
 	});

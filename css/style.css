@@ -48,7 +48,7 @@ html, body {
     width: 95%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap; }
     /* line 112, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
     .navigation .section .navLink {
@@ -136,7 +136,7 @@ html, body {
 
 /* line 208, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
 .about {
-  background-color: #929d3e; }
+  background-color: rgba(8, 65, 0, 0.68); }
   /* line 213, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
   .about .section {
     width: 80%;
