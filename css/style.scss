@@ -3,7 +3,7 @@
 
 
 html{
-	background: url(../images/background.svg) no-repeat center center fixed; 
+	background: url(../images/backgroundBlue.svg) no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -123,13 +123,14 @@ $eSix: 25px;
 .block{
 	width: 100%;
 	display: inline-block;
+	padding-bottom: 70px;
 	&>.title{
 		font-size: $cTwo;
 		text-align: center;
 		width: 50%;
 		margin-left: 25%;
 		margin-bottom: 20px;
-		background-color: red;
+		background-color: rgba(0, 52, 255, 0.7);
 		border-radius: 0% 0% 60% 60% / 0% 0% 120% 120%;
 	}
 	.section{
@@ -153,6 +154,8 @@ $eSix: 25px;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	
+	padding-bottom: 0px;
 	.section{
 		.top{
 			font-family: play;
@@ -207,7 +210,8 @@ $eSix: 25px;
 
 
 .about{
-	background-color: rgba(8, 65, 0, 0.5);
+	background-color: rgba(5, 35, 92, 0.32);
+	color: rgb(219, 228, 239);
 	.title{
 
 	}
