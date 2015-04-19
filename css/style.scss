@@ -30,7 +30,7 @@ html{
 }
 
 body{
-	font-family: Open Sans;
+	font-family: Play;
 	margin: 0px;
 }
 a{
@@ -39,6 +39,7 @@ a{
 
 html, body{
 	width: 100%;
+	line-height: 1;
 }
 
 //since I'm using min-width it's 2000+ px wide
@@ -112,7 +113,7 @@ $eSix: 25px;
 		.navLink{
 			color: #9dff90;
 			text-align: center;
-			font-family: open sans;
+			//font-family: open sans;
 			font-size: $cFour;
 			color: rgb(200, 209, 224);
 			background-color: rgba(255, 255, 255, 0.0);
@@ -130,10 +131,11 @@ $eSix: 25px;
 		width: 50%;
 		margin-left: 25%;
 		margin-bottom: 20px;
-		background-color: rgba(0, 52, 255, 0.7);
+		background-color: rgba(227, 230, 242, 1);
 		border-radius: 0% 0% 60% 60% / 0% 0% 120% 120%;
 	}
 	.section{
+		margin-top: 30px;
 		width: 94%;
 		margin-left: 3%;
 		margin-right: 3%;
@@ -157,6 +159,7 @@ $eSix: 25px;
 	
 	padding-bottom: 0px;
 	.section{
+		margin-top: 0px;
 		.top{
 			font-family: play;
 			width: 100%;
@@ -210,8 +213,8 @@ $eSix: 25px;
 
 
 .about{
-	background-color: rgba(5, 35, 92, 0.32);
-	color: rgb(219, 228, 239);
+	background-color: rgba(182, 182, 223, 0.13);
+	color: #002851;
 	.title{
 
 	}
@@ -225,8 +228,8 @@ $eSix: 25px;
 			margin-right: 2%;
 			.profile{
 				img{
-					width: 100%;
 					border-radius: 25%;
+					border: 5px solid #021a33;
 				}
 			}
 		}
@@ -263,7 +266,7 @@ $eSix: 25px;
 					font-size: $cFour;
 				}
 				.content{
-					text-indent: 5%;
+					text-indent: 10%;
 					font-size: $cFive;
 				}
 			}

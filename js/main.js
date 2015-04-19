@@ -7,37 +7,31 @@ $(window).load(function() {
 	var height = parseInt(navLinkHeight);
 	var width = $(".navLink").width();
 	var outerHeight = $(".navLink").outerHeight();
-	
 	var totalWidth = 0;
-	$(".navLink").each(function(index) {
-		totalWidth += parseInt($(this).width(), 10);
+
+	
+	$(".navLink").css({
+		paddingTop: height * .25 / 2 + "px",
+		paddingBottom: height * .25 / 2 + "px",
+		paddingLeft: height * .5 / 2 + "px",
+		paddingRight: height * .5 / 2 + "px",
+		// change padding top and bottom to height * .5 with a slow animation when switching between sections, also change the background color to get more opaque and keep the default background color very transparent. onhover change the background color to a more opaque white and the text to a darker gray variant of the original background color
+		//borderRadius: outerHeight * 2/12 + "px"
+		marginLeft: height * .5 / 2 + "px",
+		marginRight: height * .5 / 2 + "px",
 	});
 	
 	$(".navigation .section").css({
-		height: height * 2 + "px",
+		paddingTop: $(".navLink").outerHeight() / 9,
+		paddingBottom: $(".navLink").outerHeight() / 9 * 2,
 	});	
-	
-	$(".navLink").css({
-		paddingTop: height * .25 + "px",
-		paddingBottom: height * .25 + "px",
-		paddingLeft: height * .5 + "px",
-		paddingRight: height * .5 + "px",
-		// change padding top and bottom to height * .5 with a slow animation when switching between sections, also change the background color to get more opaque and keep the default background color very transparent. onhover change the background color to a more opaque white and the text to a darker gray variant of the original background color
-		//borderRadius: outerHeight * 2/12 + "px"
-		marginLeft: height * .5 + "px",
-		marginRight: height * .5 + "px",
-	});
-	
-	$(".navigation").css({
-		paddingBottom: $(".navigation .section").height() * .3 + "px",
-	});
 	
 	$(".home").css({
 		paddingTop: $(".navigation").height() + 50 + "px"
 	});	
 	
 	
-	$(".link").css("line-height", "1");
+	//$(".link").css("line-height", "1"); css rule takes care of this. This is needed for chrome so that parseInt'ing the line-height gives a numerical value and not an error.
 	
 	var temp = parseInt($(".link").css("line-height")) / 2 + "px";
 	
@@ -65,7 +59,10 @@ $(window).load(function() {
 		});
 	});
 	
-	
+	$(".block .title").css({
+		paddingTop: parseInt($(".block .title").css("line-height")) / 9 + "px",
+		paddingBottom: parseInt($(".block .title").css("line-height")) / 9 * 2 + "px",
+	});
 	
 });
 

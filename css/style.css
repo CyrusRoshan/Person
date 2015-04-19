@@ -23,7 +23,7 @@ html {
 
 /* line 32, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
 body {
-  font-family: Open Sans;
+  font-family: Play;
   margin: 0px; }
 
 /* line 36, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
@@ -32,16 +32,17 @@ a {
 
 /* line 40, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
 html, body {
-  width: 100%; }
+  width: 100%;
+  line-height: 1; }
 
-/* line 98, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+/* line 99, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
 .navigation {
   position: fixed;
   background-color: rgba(0, 37, 108, 0.9);
   width: 100%;
   display: inline-block;
   border-radius: 0% 0% 50% 50%/0% 0% 20% 20%; }
-  /* line 104, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+  /* line 105, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
   .navigation .section {
     padding-left: 2.5%;
     padding-right: 2.5%;
@@ -50,37 +51,37 @@ html, body {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap; }
-    /* line 112, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+    /* line 113, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
     .navigation .section .navLink {
       color: #9dff90;
       text-align: center;
-      font-family: open sans;
       font-size: 30px;
       color: #c8d1e0;
       background-color: rgba(255, 255, 255, 0); }
 
-/* line 123, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+/* line 124, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
 .block {
   width: 100%;
   display: inline-block;
   padding-bottom: 70px; }
-  /* line 127, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+  /* line 128, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
   .block > .title {
     font-size: 50px;
     text-align: center;
     width: 50%;
     margin-left: 25%;
     margin-bottom: 20px;
-    background-color: rgba(0, 52, 255, 0.7);
+    background-color: #e3e6f2;
     border-radius: 0% 0% 60% 60%/0% 0% 120% 120%; }
-  /* line 136, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+  /* line 137, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
   .block .section {
+    margin-top: 30px;
     width: 94%;
     margin-left: 3%;
     margin-right: 3%;
     display: inline-block; }
 
-/* line 145, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+/* line 147, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
 .home {
   background: linear-gradient(rgba(0, 0, 0, 0.69), rgba(0, 0, 0, 0.72)), url(../images/backgroundPicture.png) no-repeat left center fixed;
   -webkit-background-size: cover;
@@ -88,103 +89,106 @@ html, body {
   -o-background-size: cover;
   background-size: cover;
   padding-bottom: 0px; }
-  /* line 160, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
-  .home .section .top {
-    font-family: play;
-    width: 100%;
-    float: left;
-    text-align: center;
-    padding-bottom: 50px;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center; }
-    /* line 170, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
-    .home .section .top .title {
-      font-size: 60px; }
-      /* line 172, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
-      .home .section .top .title .name {
-        display: inline;
-        font-weight: bold; }
-    /* line 177, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
-    .home .section .top .line {
-      font-size: 30px; }
-    /* line 180, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
-    .home .section .top .line1 {
-      color: #d08b8b; }
-    /* line 183, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
-    .home .section .top .line2 {
-      color: #73c787; }
-    /* line 186, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
-    .home .section .top .line3 {
-      color: #a09ad0; }
-  /* line 190, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
-  .home .section .bottom {
-    padding-top: 30px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    background-color: rgba(0, 88, 255, 0.34);
-    justify-content: center;
-    flex-wrap: wrap;
-    border-radius: 20% 20% 0% 0%/100% 100% 0% 0%; }
-    /* line 199, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
-    .home .section .bottom .link {
-      margin-left: 1%;
-      margin-right: 1%;
-      color: #ffffff;
-      padding: 30px;
-      background-color: rgba(255, 255, 255, 0.32);
-      font-size: 30px; }
+  /* line 161, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+  .home .section {
+    margin-top: 0px; }
+    /* line 163, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+    .home .section .top {
+      font-family: play;
+      width: 100%;
+      float: left;
+      text-align: center;
+      padding-bottom: 50px;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      /* line 173, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+      .home .section .top .title {
+        font-size: 60px; }
+        /* line 175, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+        .home .section .top .title .name {
+          display: inline;
+          font-weight: bold; }
+      /* line 180, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+      .home .section .top .line {
+        font-size: 30px; }
+      /* line 183, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+      .home .section .top .line1 {
+        color: #d08b8b; }
+      /* line 186, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+      .home .section .top .line2 {
+        color: #73c787; }
+      /* line 189, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+      .home .section .top .line3 {
+        color: #a09ad0; }
+    /* line 193, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+    .home .section .bottom {
+      padding-top: 30px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      background-color: rgba(0, 88, 255, 0.34);
+      justify-content: center;
+      flex-wrap: wrap;
+      border-radius: 20% 20% 0% 0%/100% 100% 0% 0%; }
+      /* line 202, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+      .home .section .bottom .link {
+        margin-left: 1%;
+        margin-right: 1%;
+        color: #ffffff;
+        padding: 30px;
+        background-color: rgba(255, 255, 255, 0.32);
+        font-size: 30px; }
 
-/* line 212, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+/* line 215, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
 .about {
-  background-color: rgba(5, 35, 92, 0.32);
-  color: #dbe4ef; }
-  /* line 218, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+  background-color: rgba(182, 182, 223, 0.13);
+  color: #002851; }
+  /* line 221, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
   .about .section {
     width: 80%;
     margin-left: 10%;
     margin-right: 10%; }
-    /* line 222, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+    /* line 225, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
     .about .section .left {
       width: 28%;
       float: left;
       margin-right: 2%; }
-      /* line 227, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+      /* line 230, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
       .about .section .left .profile img {
-        width: 100%;
-        border-radius: 25%; }
-    /* line 233, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+        border-radius: 25%;
+        border: 5px solid #021a33; }
+    /* line 236, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
     .about .section .right {
       width: 68%;
       float: left;
       margin-left: 2%; }
-      /* line 238, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+      /* line 241, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
       .about .section .right .content .desc {
         font-size: 30px; }
-      /* line 241, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+      /* line 244, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
       .about .section .right .content .text {
         margin-top: 20px;
         font-size: 20px; }
 
-/* line 250, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+/* line 253, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
 .skills {
   background-color: #d05017; }
-  /* line 255, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+  /* line 258, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
   .skills .section {
     width: 80%;
     margin-left: 10%;
     margin-right: 10%; }
-    /* line 260, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+    /* line 263, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
     .skills .section .content .subSection {
       margin-top: 15px; }
-      /* line 262, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+      /* line 265, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
       .skills .section .content .subSection .subTitle {
         font-size: 30px; }
-      /* line 265, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+      /* line 268, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
       .skills .section .content .subSection .content {
-        text-indent: 5%;
+        text-indent: 10%;
         font-size: 20px; }
 
 /*# sourceMappingURL=style.css.map */
