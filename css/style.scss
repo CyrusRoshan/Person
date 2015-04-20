@@ -2,13 +2,13 @@
 //advocate of the developer language, node.js
 
 
-html{
-	background: url(../images/backgroundBlue.svg) no-repeat center center fixed; 
+/*html{
+	background: url(../images/backgroundBlue2.svg) no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-}
+}*/
 
 @media screen and (min-device-width: 1200px) {
 	////custom scrollbar
@@ -33,6 +33,7 @@ body{
 	font-family: Play;
 	margin: 0px;
 }
+
 a{
 	text-decoration: none;
 }
@@ -40,6 +41,11 @@ a{
 html, body{
 	width: 100%;
 	line-height: 1;
+}
+
+canvas{
+	display: block;
+	vertical-align: bottom;
 }
 
 //since I'm using min-width it's 2000+ px wide
@@ -93,7 +99,15 @@ $eFour: 40px;
 $eFive: 55px;
 $eSix: 25px;
 
-
+#particles-js{
+	background: rgb(88, 11, 109);
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -9001;
+}
 
 //border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
 .navigation{
@@ -213,7 +227,7 @@ $eSix: 25px;
 
 
 .about{
-	background-color: rgba(182, 182, 223, 0.13);
+	background-color: rgba(175, 175, 209, 0.62);
 	color: #002851;
 	.title{
 

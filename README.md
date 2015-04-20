@@ -13,7 +13,7 @@ If you're not comfortable using SASS, you can paste the .css file's contents int
 
 The website is viewable at <a href="http://cyrusroshan.me/person">cyrusroshan.me/person</a>
 
-The low poly background image was made with the help of <a href="https://github.com/qrohlf/trianglify">trianglify</a>.
+The low poly background image was made with the help of <a href="https://github.com/VincentGarreau/particles.js/">particles.js</a>.
 
 Download the current repo <a href="https://github.com/CyrusRoshan/person/archive/gh-pages.zip"> here</a>.
 ___
