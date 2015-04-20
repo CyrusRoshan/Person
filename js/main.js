@@ -1,4 +1,13 @@
-$(window).load(function() {
+//The following code could be a lot better. At least it's somewhat organized.
+//It just styles elements in ways that css wouldn't be able to do properly.
+
+$(window).load(function(){
+	modifyDOM(function(){
+		center();	
+	});
+});
+	
+function modifyDOM(callback){
     // DOM modifying stuff goes here:
 	$(".navLink").css("line-height", "1");
 	window.navLinkHeight = $(".navLink").css("line-height");
@@ -15,7 +24,6 @@ $(window).load(function() {
 		paddingBottom: height * .25 / 2 + "px",
 		paddingLeft: height * .5 / 2 + "px",
 		paddingRight: height * .5 / 2 + "px",
-		// change padding top and bottom to height * .5 with a slow animation when switching between sections, also change the background color to get more opaque and keep the default background color very transparent. onhover change the background color to a more opaque white and the text to a darker gray variant of the original background color
 		//borderRadius: outerHeight * 2/12 + "px"
 		marginLeft: height * .5 / 2 + "px",
 		marginRight: height * .5 / 2 + "px",
@@ -52,19 +60,24 @@ $(window).load(function() {
 		height: $(window).height() - $(".home").outerHeight() + $(".home .section .top").height() + "px",
 	});
 	
+	$(".block .title").css({
+		paddingTop: parseInt($(".block .title").css("line-height")) / 9 + "px",
+		paddingBottom: parseInt($(".block .title").css("line-height")) / 9 * 2.5 + "px",
+	});
+	
+
+	
+	callback();
+};
+
+function center(){
 	$(".centerThis").each(function(index) {
 		$(this).css({
 			marginTop: ($(this).parent().height() - $(this).height()) / 2,
 			marginBottom: ($(this).parent().height() - $(this).height()) / 2,
 		});
 	});
-	
-	$(".block .title").css({
-		paddingTop: parseInt($(".block .title").css("line-height")) / 9 + "px",
-		paddingBottom: parseInt($(".block .title").css("line-height")) / 9 * 2 + "px",
-	});
-	
-});
+}
 
 function scrolling(){
 	

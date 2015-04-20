@@ -85,7 +85,7 @@ canvas {
     width: 50%;
     margin-left: 25%;
     margin-bottom: 20px;
-    background-color: #e3e6f2;
+    background-color: rgba(150, 150, 150, 0.5);
     border-radius: 0% 0% 60% 60%/0% 0% 120% 120%; }
   /* line 151, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
   .block .section {
@@ -157,8 +157,8 @@ canvas {
 
 /* line 229, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
 .about {
-  background-color: rgba(175, 175, 209, 0.62);
-  color: #002851; }
+  background-color: rgba(98, 98, 98, 0.5);
+  color: #F2ECF4; }
   /* line 235, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
   .about .section {
     width: 80%;
@@ -171,24 +171,24 @@ canvas {
       margin-right: 2%; }
       /* line 244, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
       .about .section .left .profile img {
-        border-radius: 25%;
-        border: 5px solid #021a33; }
-    /* line 250, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+        border-radius: 25%; }
+    /* line 249, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
     .about .section .right {
       width: 68%;
       float: left;
       margin-left: 2%; }
-      /* line 255, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+      /* line 254, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
       .about .section .right .content .desc {
         font-size: 30px; }
-      /* line 258, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+      /* line 257, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
       .about .section .right .content .text {
         margin-top: 20px;
         font-size: 20px; }
 
-/* line 267, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
+/* line 266, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
 .skills {
-  background-color: #d05017; }
+  background-color: rgba(5, 35, 92, 0.67);
+  color: white; }
   /* line 272, C:/Users/Splash/Documents/GitHub/person/css/style.scss */
   .skills .section {
     width: 80%;

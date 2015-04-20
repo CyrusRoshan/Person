@@ -145,7 +145,7 @@ $eSix: 25px;
 		width: 50%;
 		margin-left: 25%;
 		margin-bottom: 20px;
-		background-color: rgba(227, 230, 242, 1);
+		background-color: rgba(150, 150, 150, 0.5);
 		border-radius: 0% 0% 60% 60% / 0% 0% 120% 120%;
 	}
 	.section{
@@ -227,8 +227,8 @@ $eSix: 25px;
 
 
 .about{
-	background-color: rgba(175, 175, 209, 0.62);
-	color: #002851;
+	background-color: rgba(98, 98, 98, 0.5);
+	color: #F2ECF4;
 	.title{
 
 	}
@@ -243,7 +243,6 @@ $eSix: 25px;
 			.profile{
 				img{
 					border-radius: 25%;
-					border: 5px solid #021a33;
 				}
 			}
 		}
@@ -265,7 +264,8 @@ $eSix: 25px;
 }
 
 .skills{
-	background-color: #d05017;
+	background-color: rgba(5, 35, 92, 0.67);
+	color: white;
 	.title{
 
 	}
