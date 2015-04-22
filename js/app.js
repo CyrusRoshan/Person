@@ -25,7 +25,7 @@ $(window).load(function() {
 		  enable_auto: true,
 		  distance: 85,
 		  color: '#fff',
-		  opacity: 1,
+		  opacity: .75,
 		  width: 1,
 		  condensed_mode: {
 			enable: false,

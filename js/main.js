@@ -3,7 +3,9 @@
 
 $(window).load(function(){
 	modifyDOM(function(){
-		center();	
+		called1(function(){
+			called2();
+		});	
 	});
 });
 	
@@ -41,7 +43,7 @@ function modifyDOM(callback){
 	
 	//$(".link").css("line-height", "1"); css rule takes care of this. This is needed for chrome so that parseInt'ing the line-height gives a numerical value and not an error.
 	
-	var temp = parseInt($(".link").css("line-height")) / 2 + "px";
+	temp = parseInt($(".link").css("line-height")) / 2 + "px";
 	
 	$(".link").css({
 		padding: temp,
@@ -65,18 +67,49 @@ function modifyDOM(callback){
 		paddingBottom: parseInt($(".block .title").css("line-height")) / 9 * 2.5 + "px",
 	});
 	
-
+	
 	
 	callback();
 };
 
-function center(){
+function called1(callback){
+	
 	$(".centerThis").each(function(index) {
 		$(this).css({
 			marginTop: ($(this).parent().height() - $(this).height()) / 2,
 			marginBottom: ($(this).parent().height() - $(this).height()) / 2,
 		});
 	});
+	
+
+	
+	callback();
+}
+
+
+function called2(callback){
+	window.tempWidth = 0;
+	
+	window.tempMargin = parseFloat($(".home .section .bottom .link").css("margin").split(" ")[1]);
+	
+	$(".home .section .bottom .link").css("margin", "0px");
+	$(".home .section .bottom .link").each(function(index) {
+		tempWidth += $(this).outerWidth();
+	});
+	console.log("called1");
+	
+	$(".home .section .bottom .link").css({
+		marginLeft: tempMargin,
+		marginRight: tempMargin,
+	});
+	tempWidth += tempMargin * 10;
+	$(".home .section .bottom").css({
+		width: tempWidth + "px",
+		marginLeft: ($(".home .section").innerWidth() - tempWidth) / 2 + "px",
+		marginRight: ($(".home .section").innerWidth() - tempWidth) / 2 + "px",
+		borderRadius: "7% 7% 0% 0% / 40% 40% 0% 0%",
+	});
+	console.log("called2");
 }
 
 function scrolling(){
